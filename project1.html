@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BBT Landing Page </title>
+<style type="text/CSS">
+    *{padding: 0; margin: 0; box-sizing: border-box;}
+    header{
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(2, 1, 8, 0.8),rgba(0, 0, 0, 0.2)), url('wallpaperflare.com_wallpaper.jpg');
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-sizing: border-box;
+
+    }
+
+    .logo{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        /* margin-top: 2%; */
+        left: 40px;
+        top: 30px;
+    }
+
+    .logo img{
+        width: 120px;
+    }
+
+    .bar a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        position: relative;
+    }  
+    .bar a:before{
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%; 
+        border-bottom: 2px solid rgb(94, 23, 23);
+        transition:0.4s linear; 
+    }
+    
+    .bar a:hover:before{
+        width: 90%;
+   
+    }
+    .menu{
+        position: absolute;
+        display: inline-block;
+        box-sizing: border-box;
+        right: 33px;
+        top: 35px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 8px 20px;
+        font-size: 20px; 
+        background: rgb(145, 12, 12);
+        border-radius: 4px;
+        transition: 0.4s;
+        
+    }
+
+    .menu a:hover{  
+        background: transparent;
+        border: 1px solid rgb(105, 41, 41);
+    }
+
+
+
+    
+   /* section span{
+        color: white;
+        max-widt
+    }
+
+    h1{
+        color: white;
+    }*/
+    .h-txt{
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+    }
+    .h-txt span x{
+        
+        letter-spacing: 5px;
+        font-size:  48px;
+        color: rgb(184, 3, 3);
+    }
+    .h-txt span{
+        letter-spacing: 5px;
+        font-size:  2.8em;
+  
+    }
+    .h-txt h1{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }    
+    .h-txt a{
+          text-decoration: none;
+          background: rgb(220, 19, 19);
+          color: white;
+          padding: 10px 20px;
+          letter-spacing: 5px;
+          transition: 0.4s;
+
+    }
+    .h-txt a:hover{  
+        background: transparent;
+        border: 1px solid rgb(105, 41, 41);
+    }
+ 
+
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <a href="https://www.bigboytoyz.com/">
+                <img src="inner-logo.png"></a>
+        </div>
+        <div class="bar">
+
+            <a href="#"> BUY </a>
+            <a href="#"> SELL </a>
+            <a href="#"> VINTAGE CAR </a>
+            <a href="#"> STORIES </S></a>
+            </div>
+        <div class="menu">
+            <a href="#"> menu </a>
+        </div>
+
+    </nav>
+    <section class="h-txt">
+        <span>
+            <x>LET'S</x> KEEP IT SIMPLE. </span>
+        <br>
+        <br>
+        <h1>We are the best when it comes to Exotic Cars.</h1>
+        
+        <br>
+        <br>
+
+        <a href="#"> browse the collections </a>    
+    </section>
+</header>
+</body>
+</html>
